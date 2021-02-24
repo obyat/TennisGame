@@ -8,7 +8,21 @@ public class Player : MonoBehaviour
     float speed = 3f;
     float force = 13;
     bool hitting;
-  
+
+    Animator animator;
+    public Transform Ball;
+
+    Vector3 aimmTargetInitalPosition;
+    public Renderer rend;
+
+
+
+    private void Start() {
+        rend =  GetComponent<Renderer>();
+        rend.enabled = false;
+        animator = GetComponent<Animator>();
+        aimmTargetInitalPosition= aimTarget.position;
+    }
 
     // Update is called once per frame
     void Update()
@@ -36,7 +50,19 @@ public class Player : MonoBehaviour
         if(other.CompareTag("Ball")){
             Vector3 dir = aimTarget.position - transform.position;
             other.GetComponent<Rigidbody>().velocity = dir.normalized * force + new Vector3(0,6,0);
+            Vector3 ballDir = Ball.position - transform.position;
+            if(ballDir.x >= 0){
+            animator.Play("forehand");
+            
+            } else {
+            animator.Play("backhand");
+            Debug.Log("backhand");
+
+            }
+
+            aimTarget.position = aimmTargetInitalPosition;
         }
+
     }
 
 }
