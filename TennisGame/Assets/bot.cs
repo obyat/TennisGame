@@ -4,17 +4,21 @@ using UnityEngine;
 
 public class bot : MonoBehaviour
 {
-    float speed=50;
+    float speed=10;
     Animator animator;
     public Transform ball;
     public Transform aimTarget;
+    public Transform[] targets;
     float force = 13.1f;
     Vector3 targetPosition;
+
+    ShotManager shotManager;
     // Start is called before the first frame update
     void Start()
     {
         targetPosition = transform.position;
         animator = GetComponent<Animator>();
+        shotManager = GetComponent<ShotManager>();
 
     }
 
@@ -29,10 +33,26 @@ public class bot : MonoBehaviour
         transform.position = Vector3.MoveTowards(transform.position, targetPosition, speed * Time.deltaTime);
     }
 
+    Vector3 PickTarget(){
+        int randomValue = Random.Range(0, targets.Length);
+        return targets[randomValue].position;
+    }
+
+    shot PickShot(){
+        int randomValue = Random.Range(0,2);
+        if (randomValue == 0)
+            return shotManager.topSpin;
+        else
+            return shotManager.flat;
+       
+        
+    }
+
     private void OnTriggerEnter(Collider other) {
+        shot currentShot = PickShot();
         if(other.CompareTag("Ball")){
-            Vector3 dir = aimTarget.position - transform.position;
-            other.GetComponent<Rigidbody>().velocity = dir.normalized * force + new Vector3(0,5,0);
+            Vector3 dir = PickTarget() - transform.position;
+            other.GetComponent<Rigidbody>().velocity = dir.normalized * currentShot.hitforce + new Vector3(0,currentShot.upforce,0);
             Vector3 ballDir = ball.position - transform.position;
             if(ballDir.x >= 0){
             animator.Play("forehand");

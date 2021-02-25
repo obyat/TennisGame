@@ -6,7 +6,6 @@ public class Player : MonoBehaviour
 {
     public Transform aimTarget;
     float speed = 3f;
-    float force = 13;
     bool hitting;
 
     Animator animator;
@@ -34,29 +33,31 @@ public class Player : MonoBehaviour
         float h = Input.GetAxisRaw("Horizontal");
         float v  = Input.GetAxisRaw("Vertical");
 
+        if(Input.GetKeyDown(KeyCode.L)){
+            currentShot=shotManager.topSpin;
+        } else if(Input.GetKeyUp(KeyCode.L)){
+            hitting = false;
+        }
+
+
+   if(Input.GetKeyDown(KeyCode.K)){
+            currentShot=shotManager.flat;
+
+        } else if(Input.GetKeyUp(KeyCode.K)){
+            hitting = false;
+        }
 
         if(Input.GetKeyDown(KeyCode.F)){
             hitting=true;
-            currentShot=shotManager.topSpin;
         } else if(Input.GetKeyUp(KeyCode.F)){
             hitting = false;
         }
-
-
-   if(Input.GetKeyDown(KeyCode.Q)){
-            currentShot=shotManager.flat;
-
-        } else if(Input.GetKeyUp(KeyCode.Q)){
-            hitting = false;
-        }
-
-
         if(hitting){
             aimTarget.Translate(new Vector3(h, 0, 0) * speed * 2 * Time.deltaTime);
         }
 
         if((h != 0 || v != 0) && !hitting){
-            transform.Translate(new Vector3(h, 0, v) * speed * Time.deltaTime);
+            transform.Translate(new Vector3(h, 0, v) * speed *  2 * Time.deltaTime);
         }
     }
 
