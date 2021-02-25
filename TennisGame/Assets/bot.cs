@@ -8,7 +8,7 @@ public class bot : MonoBehaviour
     Animator animator;
     public Transform ball;
     public Transform aimTarget;
-    float force = 15;
+    float force = 13.1f;
     Vector3 targetPosition;
     // Start is called before the first frame update
     void Start()
@@ -32,7 +32,7 @@ public class bot : MonoBehaviour
     private void OnTriggerEnter(Collider other) {
         if(other.CompareTag("Ball")){
             Vector3 dir = aimTarget.position - transform.position;
-            other.GetComponent<Rigidbody>().velocity = dir.normalized * force + new Vector3(0,6,0);
+            other.GetComponent<Rigidbody>().velocity = dir.normalized * force + new Vector3(0,5,0);
             Vector3 ballDir = ball.position - transform.position;
             if(ballDir.x >= 0){
             animator.Play("forehand");
