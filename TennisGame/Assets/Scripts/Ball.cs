@@ -14,7 +14,7 @@ public class Ball : MonoBehaviour
     private void OnCollisionEnter(Collision collision) {
         if(collision.transform.CompareTag("Wall")){
             GetComponent<Rigidbody>().velocity = Vector3.zero;
-            transform.position = initalPos;
+          //  transform.position = initalPos;
         }
     }
 }

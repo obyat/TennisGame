@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 [System.Serializable]
-public class shot{
+public class Shot{
     public float upforce;
     public float hitforce;
 
@@ -12,8 +12,10 @@ public class shot{
 
 public class ShotManager : MonoBehaviour
 {
-    public shot topSpin;
-    public shot flat;
+    public Shot topSpin;
+    public Shot flat;
+    public Shot kickServe;
+    public Shot flatServe;
 
 
 }

@@ -15,7 +15,7 @@ public class Player : MonoBehaviour
     public Renderer rend;
 
     ShotManager shotManager;
-    shot currentShot;
+    Shot currentShot;
 
     private void Start() {
         rend =  GetComponent<Renderer>();
@@ -33,19 +33,6 @@ public class Player : MonoBehaviour
         float h = Input.GetAxisRaw("Horizontal");
         float v  = Input.GetAxisRaw("Vertical");
 
-        if(Input.GetKeyDown(KeyCode.L)){
-            currentShot=shotManager.topSpin;
-        } else if(Input.GetKeyUp(KeyCode.L)){
-            hitting = false;
-        }
-
-
-   if(Input.GetKeyDown(KeyCode.K)){
-            currentShot=shotManager.flat;
-
-        } else if(Input.GetKeyUp(KeyCode.K)){
-            hitting = false;
-        }
 
         if(Input.GetKeyDown(KeyCode.F)){
             hitting=true;
@@ -58,6 +45,44 @@ public class Player : MonoBehaviour
 
         if((h != 0 || v != 0) && !hitting){
             transform.Translate(new Vector3(h, 0, v) * speed *  2 * Time.deltaTime);
+        }
+
+        if(Input.GetKeyDown(KeyCode.L)){
+            currentShot=shotManager.topSpin;
+        } else if(Input.GetKeyUp(KeyCode.L)){
+            hitting = false;
+        }
+
+
+   if(Input.GetKeyDown(KeyCode.K)){
+
+            currentShot=shotManager.flat;
+
+        } else if(Input.GetKeyUp(KeyCode.K)){
+            hitting = false;
+        }
+
+
+        
+        if(Input.GetKeyDown(KeyCode.I)){
+            currentShot=shotManager.flatServe;
+            GetComponent<BoxCollider>().enabled = false;
+            animator.Play("serve-prepare");
+        }
+
+        if(Input.GetKeyDown(KeyCode.O)){
+            currentShot=shotManager.kickServe;
+            GetComponent<BoxCollider>().enabled = false;
+            animator.Play("serve-prepare");
+        }  
+        
+        if(Input.GetKeyUp(KeyCode.I) || Input.GetKeyUp(KeyCode.O)){
+            hitting = false;
+            GetComponent<BoxCollider>().enabled = true;
+            Ball.transform.position = transform.position + new Vector3(0.2f, 1, 1);
+            Vector3 dir = aimTarget.position - transform.position;
+            Ball.GetComponent<Rigidbody>().velocity = dir.normalized * currentShot.hitforce + new Vector3(0,currentShot.upforce,0);
+            animator.Play("serve");
         }
     }
 
@@ -77,7 +102,6 @@ public class Player : MonoBehaviour
 
             aimTarget.position = aimmTargetInitalPosition;
         }
-
     }
 
 }

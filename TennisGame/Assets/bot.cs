@@ -9,7 +9,6 @@ public class bot : MonoBehaviour
     public Transform ball;
     public Transform aimTarget;
     public Transform[] targets;
-    float force = 13.1f;
     Vector3 targetPosition;
 
     ShotManager shotManager;
@@ -38,7 +37,7 @@ public class bot : MonoBehaviour
         return targets[randomValue].position;
     }
 
-    shot PickShot(){
+    Shot PickShot(){
         int randomValue = Random.Range(0,2);
         if (randomValue == 0)
             return shotManager.topSpin;
@@ -49,7 +48,7 @@ public class bot : MonoBehaviour
     }
 
     private void OnTriggerEnter(Collider other) {
-        shot currentShot = PickShot();
+        Shot currentShot = PickShot();
         if(other.CompareTag("Ball")){
             Vector3 dir = PickTarget() - transform.position;
             other.GetComponent<Rigidbody>().velocity = dir.normalized * currentShot.hitforce + new Vector3(0,currentShot.upforce,0);
