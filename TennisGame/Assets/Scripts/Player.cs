@@ -50,7 +50,7 @@ public class Player : MonoBehaviour
             hitting = false;
         }
         if(hitting){
-            aimTarget.Translate(new Vector3(h, 0, 0) * speed * 2 * Time.deltaTime);
+            aimTarget.Translate(new Vector3(h, 0, 0) * speed * 4 * Time.deltaTime);
         }
 
         if((h != 0 || v != 0) && !hitting){
