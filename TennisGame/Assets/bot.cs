@@ -18,7 +18,6 @@ public class bot : MonoBehaviour
         targetPosition = transform.position;
         animator = GetComponent<Animator>();
         shotManager = GetComponent<ShotManager>();
-
     }
 
     // Update is called once per frame
@@ -61,9 +60,10 @@ public class bot : MonoBehaviour
               
             } else {
             animator.Play("backhand");
-            Debug.Log("backhand");
-
             }
+
+            ball.GetComponent<Ball>().hitter = "bot";
+
         }
 
     }
