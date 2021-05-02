@@ -114,8 +114,8 @@ public class SimpleSampleCharacterControl : MonoBehaviour
 
     private void FixedUpdate()
     {
-        m_animator.SetBool("Grounded", m_isGrounded);
-
+        // m_animator.SetBool("Grounded", m_isGrounded);
+        m_animator.SetBool("Grounded", true);
         switch (m_controlMode)
         {
             case ControlMode.Direct:
@@ -158,7 +158,7 @@ public class SimpleSampleCharacterControl : MonoBehaviour
         transform.position += transform.forward * m_currentV * m_moveSpeed * Time.deltaTime;
         transform.Rotate(0, m_currentH * m_turnSpeed * Time.deltaTime, 0);
 
-        m_animator.SetFloat("MoveSpeed", m_currentV);
+        m_animator.SetFloat("MoveSpeed", -m_currentV);
 
         JumpingAndLanding();
     }
@@ -192,7 +192,7 @@ public class SimpleSampleCharacterControl : MonoBehaviour
             transform.rotation = Quaternion.LookRotation(m_currentDirection);
             transform.position += m_currentDirection * m_moveSpeed * Time.deltaTime;
 
-            m_animator.SetFloat("MoveSpeed", direction.magnitude);
+            m_animator.SetFloat("MoveSpeed", -direction.magnitude);
         }
 
         JumpingAndLanding();
