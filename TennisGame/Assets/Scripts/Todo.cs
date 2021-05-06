@@ -5,13 +5,16 @@ using UnityEngine;
 public class Todo : MonoBehaviour
 {
 /*
-TODO: Make targets invisible
-TODO: Fix net collision  
-TODO: Mouse aiming 
-TODO: Lights 
-TODO: Disect wall colliders to better account for scores
-TODO: reticle
-TODO: 
+MAJOR:
+    TODO: sound racket 
+    TODO: Fix net collision  
+    TODO: Disect wall colliders to better account for scores
+    TODO: animate racket flip his animations to simulate racket hitting
+    TODO: ball too high
 
+LATER:
+    TODO: Mouse aiming 
+    TODO: reticle
+    TODO: shots mouse clicks
 */
 }

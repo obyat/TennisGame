@@ -35,6 +35,8 @@ public class Player : MonoBehaviour
 
         shotManager = GetComponent<ShotManager>();
         currentShot = shotManager.topSpin;
+        GetComponent<CapsuleCollider>().enabled = true;
+
     }
 
     // Update is called once per frame
@@ -96,6 +98,8 @@ public class Player : MonoBehaviour
             Ball.GetComponent<Ball>().hitter = "player";
             Ball.GetComponent<Ball>().playing = true;
         }
+                GetComponent<CapsuleCollider>().enabled = true;
+
     }
 
     private void OnTriggerEnter(Collider other) {
@@ -103,13 +107,13 @@ public class Player : MonoBehaviour
             Vector3 dir = aimTarget.position - transform.position;
             other.GetComponent<Rigidbody>().velocity = dir.normalized * currentShot.hitforce + new Vector3(0,currentShot.upforce,0);
             Vector3 ballDir = Ball.position - transform.position;
-            if(ballDir.x >= 0){
-            animator.Play("forehand");
-            
-            } else {
-            animator.Play("backhand");
+                if(ballDir.x >= 0){
+                animator.Play("forehand");
+                
+                } else {
+                animator.Play("backhand");
 
-            }
+                }
 
             Ball.GetComponent<Ball>().hitter = "player";
          

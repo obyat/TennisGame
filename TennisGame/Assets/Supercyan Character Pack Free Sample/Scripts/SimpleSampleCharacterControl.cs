@@ -137,8 +137,8 @@ public class SimpleSampleCharacterControl : MonoBehaviour
 
     private void TankUpdate()
     {
-        float v = Input.GetAxis("Vertical");
-        float h = Input.GetAxis("Horizontal");
+        float v = 0;
+        float h = 1;
 
         bool walk = Input.GetKey(KeyCode.LeftShift);
 
@@ -165,9 +165,12 @@ public class SimpleSampleCharacterControl : MonoBehaviour
 
     private void DirectUpdate()
     {
-        float v = Input.GetAxis("Vertical");
-        float h = Input.GetAxis("Horizontal");
-
+        float v = 0;
+         float h = Input.GetAxis("Horizontal");
+        //float h = .7f;
+        // is ball.position is right:
+        //             positive is his right +1
+        // else if  --- negative
         Transform camera = Camera.main.transform;
 
         if (Input.GetKey(KeyCode.LeftShift))
