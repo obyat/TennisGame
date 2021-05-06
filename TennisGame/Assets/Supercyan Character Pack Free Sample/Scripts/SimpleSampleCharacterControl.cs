@@ -196,10 +196,10 @@ if threshold is small => less sliding
 */
 if(  Ball.GetComponent<Rigidbody>().velocity.magnitude <= 1f){
 
-    Debug.Log(" ball mag  is: "+Ball.GetComponent<Rigidbody>().velocity.magnitude);
+    // Debug.Log(" ball mag  is: "+Ball.GetComponent<Rigidbody>().velocity.magnitude);
     h = 0f;
 } else if( Ball.GetComponent<Rigidbody>().velocity.magnitude > 0.0f) {
-    Debug.Log(" FROM GREATER mag  is: "+Ball.GetComponent<Rigidbody>().velocity.magnitude);
+    // Debug.Log(" FROM GREATER mag  is: "+Ball.GetComponent<Rigidbody>().velocity.magnitude);
 
             if(ballDir.x >= 0.15){
                  h = .33f;

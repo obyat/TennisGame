@@ -21,6 +21,9 @@ public class Ball : MonoBehaviour
     private GameObject sightcube;
     public bool playing = true;
 
+    public GameObject winTextBeach;
+    public GameObject loseTextBeach;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -96,10 +99,14 @@ public class Ball : MonoBehaviour
     }
 
     private void checkMaxScore(){
-        if (botScore == maxScore)
+        if (botScore == maxScore){
             Debug.Log("Bot Won");
-        else if (playerScore == maxScore)
+            Instantiate(loseTextBeach, GetBoxPos(), Quaternion.identity);
+        }
+        else if (playerScore == maxScore){
             Debug.Log("player Won");
+            Instantiate(winTextBeach, GetBoxPos(), Quaternion.identity);
+        }
 
     }
 
