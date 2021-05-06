@@ -7,6 +7,14 @@ public class Shot{
     public float upforce;
     public float hitforce;
 
+
+  
+    public Shot(float Myupforce, float Myhitforce) {
+        upforce = Myupforce;
+        hitforce = Myhitforce;
+    }
+
+
 }
 
 
@@ -19,3 +27,5 @@ public class ShotManager : MonoBehaviour
 
 
 }
+
+

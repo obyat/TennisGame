@@ -22,7 +22,7 @@ public class Player : MonoBehaviour
     [SerializeField] Transform serveRight;
     [SerializeField] Transform serveLeft;
     bool servedRight = true;
-
+    public AudioSource m_MyAudioSource;
 
 
 
@@ -69,6 +69,8 @@ public class Player : MonoBehaviour
    if(Input.GetKeyDown(KeyCode.K)){
 
             currentShot=shotManager.flat;
+Debug.Log("MY K IS===> " + "("+shotManager.flat.upforce+ ", " + shotManager.flat.hitforce + ")");
+
 
         } else if(Input.GetKeyUp(KeyCode.K)){
             hitting = false;
@@ -107,6 +109,9 @@ public class Player : MonoBehaviour
             Vector3 dir = aimTarget.position - transform.position;
             other.GetComponent<Rigidbody>().velocity = dir.normalized * currentShot.hitforce + new Vector3(0,currentShot.upforce,0);
             Vector3 ballDir = Ball.position - transform.position;
+            //Play sound when ball is hit need to also add for enemy
+            m_MyAudioSource.Play();
+
                 if(ballDir.x >= 0){
                 animator.Play("forehand");
                 

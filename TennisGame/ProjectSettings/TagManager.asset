@@ -10,6 +10,9 @@ TagManager:
   - out
   - net
   - botTargets
+  - FxTemporaire
+  - ScoreStars
+  - starcube
   layers:
   - Default
   - TransparentFX

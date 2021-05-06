@@ -23,6 +23,7 @@ public class SimpleSampleCharacterControl : MonoBehaviour
     [SerializeField] private Rigidbody m_rigidBody = null;
 
     [SerializeField] private ControlMode m_controlMode = ControlMode.Direct;
+    public Transform Ball;
 
     private float m_currentV = 0;
     private float m_currentH = 0;
@@ -111,7 +112,7 @@ public class SimpleSampleCharacterControl : MonoBehaviour
             m_jumpInput = true;
         }
     }
-
+    
     private void FixedUpdate()
     {
         // m_animator.SetBool("Grounded", m_isGrounded);
@@ -137,8 +138,24 @@ public class SimpleSampleCharacterControl : MonoBehaviour
 
     private void TankUpdate()
     {
+     
         float v = 0;
-        float h = 1;
+        float h = 0;
+        // Vector3 ballDir = Ball.position - transform.position;
+        // Debug.Log("his z position: "+ transform.position.z);
+        // Debug.Log("ball z: "+ Ball.position.z);
+        // Debug.Log("Z distance is: "+Mathf.Abs(ballDir.z));
+        // if(Mathf.Abs(ballDir.z) <= 4){
+        //     v = -1f;
+        // } 
+        // v = 0;
+        //     if(ballDir.x >= 0.01){
+        //          h = 1f;            
+        //     } else if(ballDir.x < -0.01){
+        //          h = -1f;
+        //     } else {
+        //         h = 0;
+        //     }
 
         bool walk = Input.GetKey(KeyCode.LeftShift);
 
@@ -155,7 +172,6 @@ public class SimpleSampleCharacterControl : MonoBehaviour
         m_currentV = Mathf.Lerp(m_currentV, v, Time.deltaTime * m_interpolation);
         m_currentH = Mathf.Lerp(m_currentH, h, Time.deltaTime * m_interpolation);
 
-        transform.position += transform.forward * m_currentV * m_moveSpeed * Time.deltaTime;
         transform.Rotate(0, m_currentH * m_turnSpeed * Time.deltaTime, 0);
 
         m_animator.SetFloat("MoveSpeed", -m_currentV);
@@ -163,15 +179,45 @@ public class SimpleSampleCharacterControl : MonoBehaviour
         JumpingAndLanding();
     }
 
+    float h = 0;
     private void DirectUpdate()
     {
+
         float v = 0;
-         float h = Input.GetAxis("Horizontal");
-        //float h = .7f;
-        // is ball.position is right:
-        //             positive is his right +1
-        // else if  --- negative
-        Transform camera = Camera.main.transform;
+        Vector3 ballDir = Ball.position - transform.position;
+
+        //starts at 16 gets all the way to zero before he hits
+       // Debug.Log("Z distance is: "+Mathf.Abs(ballDir.z));
+/*
+
+if threshold is large => gives him breathing room to idle
+
+if threshold is small => less sliding
+*/
+if(  Ball.GetComponent<Rigidbody>().velocity.magnitude <= 1f){
+
+    Debug.Log(" ball mag  is: "+Ball.GetComponent<Rigidbody>().velocity.magnitude);
+    h = 0f;
+} else if( Ball.GetComponent<Rigidbody>().velocity.magnitude > 0.0f) {
+    Debug.Log(" FROM GREATER mag  is: "+Ball.GetComponent<Rigidbody>().velocity.magnitude);
+
+            if(ballDir.x >= 0.15){
+                 h = .33f;
+            } else if(ballDir.x < -0.15){
+                 h = -.33f;
+            }
+
+        if(Mathf.Abs(ballDir.z)<=4f){
+//if threshold is small and ball is close.x direction (rotates crazily)=>animate
+
+            if(ballDir.x >= 0.01){
+                 h = .8f;
+            } else if(ballDir.x < -0.01){
+                 h = -.8f;
+            }
+        }
+    }
+         Transform camera = Camera.main.transform;
 
         if (Input.GetKey(KeyCode.LeftShift))
         {
@@ -195,7 +241,7 @@ public class SimpleSampleCharacterControl : MonoBehaviour
             transform.rotation = Quaternion.LookRotation(m_currentDirection);
             transform.position += m_currentDirection * m_moveSpeed * Time.deltaTime;
 
-            m_animator.SetFloat("MoveSpeed", -direction.magnitude);
+            m_animator.SetFloat("MoveSpeed", h);
         }
 
         JumpingAndLanding();
