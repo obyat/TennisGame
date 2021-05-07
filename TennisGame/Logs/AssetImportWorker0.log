@@ -15,11 +15,11 @@ C:/Users/TC/Desktop/CS461 Computer Game Programming/Projects/TennisGame/TennisGa
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-56055
+63138
 Successfully changed project path to: C:/Users/TC/Desktop/CS461 Computer Game Programming/Projects/TennisGame/TennisGame/TennisGame
 C:/Users/TC/Desktop/CS461 Computer Game Programming/Projects/TennisGame/TennisGame/TennisGame
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 39.78 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 54.93 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.2.2f1 (068178b99f32)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Editor/Data/Resources/UnitySubsystems
@@ -35,1105 +35,661 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56124
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56668
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002307 seconds.
+Registered in 0.003057 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 40.85 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 54.65 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.160 seconds
+- Completed reload, in  1.441 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.002001 seconds.
+Registered in 0.003372 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.35 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.41 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.927 seconds
+- Completed reload, in  1.244 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.35 ms, found 0 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 0.56 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1278 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 76.2 MB.
-System memory in use after: 76.3 MB.
+Unloading 1279 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 76.7 MB.
+System memory in use after: 76.8 MB.
 
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1729.
-Total: 1.848500 ms (FindLiveObjects: 0.157600 ms CreateObjectMapping: 0.082800 ms MarkObjects: 1.497400 ms  DeleteObjects: 0.109700 ms)
-
-========================================================================
-Received Import Request.
-  path: Assets/Scenes/New Material.mat
-  artifactKey: Guid(7b141a1b14aedab4c9adfcf27ccfad0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/New Material.mat using Guid(7b141a1b14aedab4c9adfcf27ccfad0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3a52ab126260e7d141198ece9aa24a2') in 0.375501 seconds
-  Import took 0.378197 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002926 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.40 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.008 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.37 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1227 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 76.1 MB.
-System memory in use after: 76.2 MB.
-
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1772.
-Total: 2.105500 ms (FindLiveObjects: 0.177400 ms CreateObjectMapping: 0.062700 ms MarkObjects: 1.846500 ms  DeleteObjects: 0.017300 ms)
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1733.
+Total: 2.840600 ms (FindLiveObjects: 0.287000 ms CreateObjectMapping: 0.098000 ms MarkObjects: 2.317600 ms  DeleteObjects: 0.134500 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 151.076426 seconds.
-  path: Assets/Prefab/ball.prefab
-  artifactKey: Guid(b1cb3da748f1e5e4b9f3ae44020fedec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/ball.prefab using Guid(b1cb3da748f1e5e4b9f3ae44020fedec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88df1f18b98786385e82605c23d5f9a6') in 0.089224 seconds
-  Import took 0.092362 seconds .
+  path: Assets/SkySerie Freebie/FreebieHdri/FluffballDayLeft.hdr
+  artifactKey: Guid(a78d8299279fda54098aca1c72ecfae1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkySerie Freebie/FreebieHdri/FluffballDayLeft.hdr using Guid(a78d8299279fda54098aca1c72ecfae1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6afc3d324bce8690629d00cac98367d9') in 0.126304 seconds
+  Import took 0.129437 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000380 seconds.
-  path: Assets/Prefab/bounce.physicMaterial
-  artifactKey: Guid(9a8f37c2645a7a249888d5d435072a95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/bounce.physicMaterial using Guid(9a8f37c2645a7a249888d5d435072a95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc8f4b233725d163fe1facffee004134') in 0.016038 seconds
-  Import took 0.018988 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000306 seconds.
-  path: Assets/Prefab/player.prefab
-  artifactKey: Guid(cd69fadfcc8b74240915b29af9a5b0ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/player.prefab using Guid(cd69fadfcc8b74240915b29af9a5b0ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e42826ee2014be1f101796bb4daae9c0') in 0.033231 seconds
-  Import took 0.038157 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000395 seconds.
-  path: Assets/Prefab/lamp.prefab
-  artifactKey: Guid(d4d1925188dad3e4cb63edea4134406e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/lamp.prefab using Guid(d4d1925188dad3e4cb63edea4134406e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e244ae39b5fbb7d0c15ef189342c0b47') in 0.037917 seconds
-  Import took 0.040989 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.815498 seconds.
-  path: Assets/Prefab/LoseTextDesert.prefab
-  artifactKey: Guid(92156ba664eac8c4996df11d4689d9b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/LoseTextDesert.prefab using Guid(92156ba664eac8c4996df11d4689d9b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf0a7821edceb7e580977fb89dc41fa0') in 0.014036 seconds
-  Import took 0.017896 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000291 seconds.
-  path: Assets/Prefab/StartText.prefab
-  artifactKey: Guid(67e6120659e4f444793974ff0c2d27ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/StartText.prefab using Guid(67e6120659e4f444793974ff0c2d27ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e87da22396529fb8f2fa3fc1c019b96') in 0.012504 seconds
-  Import took 0.015700 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000337 seconds.
-  path: Assets/Prefab/WinTextDesert.prefab
-  artifactKey: Guid(bec546561ec21c948bc0a969a2d986a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/WinTextDesert.prefab using Guid(bec546561ec21c948bc0a969a2d986a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a145bc28ff97b740582db70941e2814') in 0.013327 seconds
-  Import took 0.017685 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000388 seconds.
-  path: Assets/Prefab/UIDesert.prefab
-  artifactKey: Guid(4128ae6b6dd8d30428d8333c5c781151) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/UIDesert.prefab using Guid(4128ae6b6dd8d30428d8333c5c781151) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e102e29d1aa2e3b9cfeac32c91a2b179') in 0.056999 seconds
-  Import took 0.061927 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 47.191636 seconds.
-  path: Assets/Prefab/LevelManager.prefab
-  artifactKey: Guid(936a35334af1e084aacae5c722b3d5b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/LevelManager.prefab using Guid(936a35334af1e084aacae5c722b3d5b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0096fe2f4cbb748a214b21481c99753') in 0.009303 seconds
-  Import took 0.011854 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 284.149054 seconds.
-  path: Assets/Scripts/Todo.cs
-  artifactKey: Guid(71839330d39f439409266d8ffb869e63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Todo.cs using Guid(71839330d39f439409266d8ffb869e63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7852a90e9492ba390121965780af82a') in 0.015353 seconds
-  Import took 0.019113 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002900 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.36 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.067 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.36 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1228 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 77.4 MB.
-System memory in use after: 77.5 MB.
-
-Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 1781.
-Total: 2.681100 ms (FindLiveObjects: 0.155100 ms CreateObjectMapping: 0.048800 ms MarkObjects: 2.437000 ms  DeleteObjects: 0.038600 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 22.676193 seconds.
-  path: Assets/Scripts/LevelManagerDesert.cs
-  artifactKey: Guid(a2a4aa6a455d70f4d89ae7f1a1c6db8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/LevelManagerDesert.cs using Guid(a2a4aa6a455d70f4d89ae7f1a1c6db8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ddc77a6d62aca234c06c3eec2d74d8a') in 0.013988 seconds
-  Import took 0.017207 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.533875 seconds.
-  path: Assets/Scripts/LevelManagerBeach.cs
-  artifactKey: Guid(a2a4aa6a455d70f4d89ae7f1a1c6db8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/LevelManagerBeach.cs using Guid(a2a4aa6a455d70f4d89ae7f1a1c6db8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e314d615c40fd11ff405af3883a7d358') in 0.013858 seconds
-  Import took 0.019328 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001973 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.40 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.949 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.35 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1228 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 77.4 MB.
-System memory in use after: 77.5 MB.
-
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1784.
-Total: 2.705600 ms (FindLiveObjects: 0.210500 ms CreateObjectMapping: 0.072000 ms MarkObjects: 2.404200 ms  DeleteObjects: 0.017000 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002939 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.40 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.978 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.40 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1228 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 77.3 MB.
-System memory in use after: 77.4 MB.
-
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1787.
-Total: 2.433900 ms (FindLiveObjects: 0.339600 ms CreateObjectMapping: 0.139800 ms MarkObjects: 1.920300 ms  DeleteObjects: 0.032400 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 33.863509 seconds.
-  path: Assets/Scripts/LevelManagerBeach.cs
-  artifactKey: Guid(a2a4aa6a455d70f4d89ae7f1a1c6db8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/LevelManagerBeach.cs using Guid(a2a4aa6a455d70f4d89ae7f1a1c6db8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a37e11cee26551c36f17088fc0fb89a') in 0.009509 seconds
-  Import took 0.012629 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002057 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.52 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.925 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.39 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1228 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 77.4 MB.
-System memory in use after: 77.5 MB.
-
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1790.
-Total: 2.096100 ms (FindLiveObjects: 0.269700 ms CreateObjectMapping: 0.093600 ms MarkObjects: 1.695300 ms  DeleteObjects: 0.035500 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 35.059477 seconds.
-  path: Assets/Scripts/LevelManagerBeach.cs
-  artifactKey: Guid(a2a4aa6a455d70f4d89ae7f1a1c6db8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/LevelManagerBeach.cs using Guid(a2a4aa6a455d70f4d89ae7f1a1c6db8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0310149a07478fc5474a7a7d001e2efa') in 0.008198 seconds
-  Import took 0.010876 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002089 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.36 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.941 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.37 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1228 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 77.4 MB.
-System memory in use after: 77.5 MB.
-
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1793.
-Total: 2.099900 ms (FindLiveObjects: 0.287200 ms CreateObjectMapping: 0.073000 ms MarkObjects: 1.722100 ms  DeleteObjects: 0.016500 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 41.401793 seconds.
-  path: Assets/Prefab/LevelManager.prefab
-  artifactKey: Guid(936a35334af1e084aacae5c722b3d5b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/LevelManager.prefab using Guid(936a35334af1e084aacae5c722b3d5b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6997b5e8a9bd8905ed3341ca62415678') in 0.036663 seconds
-  Import took 0.040947 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.055162 seconds.
-  path: Assets/Prefab/LevelManager.prefab
-  artifactKey: Guid(936a35334af1e084aacae5c722b3d5b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/LevelManager.prefab using Guid(936a35334af1e084aacae5c722b3d5b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6997b5e8a9bd8905ed3341ca62415678') in 0.011092 seconds
-  Import took 0.014361 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.623156 seconds.
-  path: Assets/Prefab/LevelManagerBeach.prefab
-  artifactKey: Guid(936a35334af1e084aacae5c722b3d5b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/LevelManagerBeach.prefab using Guid(936a35334af1e084aacae5c722b3d5b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16b5f5b3024cc5f1d08ecd1ff93300a2') in 0.009555 seconds
-  Import took 0.013720 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.945156 seconds.
-  path: Assets/Prefab/LoseTextBeach.prefab
-  artifactKey: Guid(92156ba664eac8c4996df11d4689d9b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/LoseTextBeach.prefab using Guid(92156ba664eac8c4996df11d4689d9b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5b331b662e7dabf9d6f9d120f70f3e9') in 0.013016 seconds
-  Import took 0.016102 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003159 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.41 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.999 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.39 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1228 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 77.4 MB.
-System memory in use after: 77.5 MB.
-
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1796.
-Total: 1.858500 ms (FindLiveObjects: 0.253400 ms CreateObjectMapping: 0.050800 ms MarkObjects: 1.506900 ms  DeleteObjects: 0.046200 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002744 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.43 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.052 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.41 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1228 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 77.4 MB.
-System memory in use after: 77.5 MB.
-
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1799.
-Total: 2.164600 ms (FindLiveObjects: 0.270600 ms CreateObjectMapping: 0.142000 ms MarkObjects: 1.733100 ms  DeleteObjects: 0.017600 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003090 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.41 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.949 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.52 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1228 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 77.4 MB.
-System memory in use after: 77.5 MB.
-
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1802.
-Total: 2.713500 ms (FindLiveObjects: 0.312800 ms CreateObjectMapping: 0.121100 ms MarkObjects: 2.250800 ms  DeleteObjects: 0.026100 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 2201.656874 seconds.
-  path: Assets/#NVJOB Simple Water Shaders/Examples Water
-  artifactKey: Guid(4146ac5414654ea39af93d5d6baa42a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/#NVJOB Simple Water Shaders/Examples Water using Guid(4146ac5414654ea39af93d5d6baa42a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09e9a117a34593948cfb4f1e0d2c2af4') in 0.016401 seconds
-  Import took 0.019643 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.441125 seconds.
-  path: Assets/#NVJOB Simple Water Shaders/Examples Water/Materials
-  artifactKey: Guid(1ce5ffdde54b4d59a8d125eb1afc9dda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/#NVJOB Simple Water Shaders/Examples Water/Materials using Guid(1ce5ffdde54b4d59a8d125eb1afc9dda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2a99421ce34d3e7f35d3954317f630e') in 0.014545 seconds
-  Import took 0.018580 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000862 seconds.
-  path: Assets/#NVJOB Simple Water Shaders/Examples Water/Materials
-  artifactKey: Guid(1ce5ffdde54b4d59a8d125eb1afc9dda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/#NVJOB Simple Water Shaders/Examples Water/Materials using Guid(1ce5ffdde54b4d59a8d125eb1afc9dda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2a99421ce34d3e7f35d3954317f630e') in 0.005683 seconds
-  Import took 0.013806 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.706833 seconds.
-  path: Assets/#NVJOB Simple Water Shaders/Examples Water/Materials/Water Specular.mat
-  artifactKey: Guid(e04b40bf0be048be81d0021195b74e5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/#NVJOB Simple Water Shaders/Examples Water/Materials/Water Specular.mat using Guid(e04b40bf0be048be81d0021195b74e5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c53d7fd4b161e7839061da24012f079') in 0.253303 seconds
-  Import took 0.257040 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000411 seconds.
-  path: Assets/#NVJOB Simple Water Shaders/Examples Water/Materials/Water Surface.mat
-  artifactKey: Guid(2f339b9458d647ed9fd50143ad4fb3ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/#NVJOB Simple Water Shaders/Examples Water/Materials/Water Surface.mat using Guid(2f339b9458d647ed9fd50143ad4fb3ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0157bf5a1d678e2db419aaf51a238d5') in 0.346143 seconds
-  Import took 0.351007 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.964775 seconds.
-  path: Assets/#NVJOB Simple Water Shaders/Examples Water/Materials/Textures
-  artifactKey: Guid(8e0642ffa5354a9c90ab856576151242) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/#NVJOB Simple Water Shaders/Examples Water/Materials/Textures using Guid(8e0642ffa5354a9c90ab856576151242) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd792004465549d8bfed8783cb463d3a6') in 0.010654 seconds
-  Import took 0.014582 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.043746 seconds.
-  path: Assets/#NVJOB Simple Water Shaders/Examples Water/Materials/Textures/Cubemap.cubemap
-  artifactKey: Guid(55e2009d8c11413799d68a0c219fdc22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/#NVJOB Simple Water Shaders/Examples Water/Materials/Textures/Cubemap.cubemap using Guid(55e2009d8c11413799d68a0c219fdc22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b69b3a8bbd42ef20353e91921edef84') in 0.036158 seconds
-  Import took 0.038737 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000322 seconds.
-  path: Assets/#NVJOB Simple Water Shaders/Examples Water/Materials/Textures/Water H.png
-  artifactKey: Guid(d2c21b3117b24b749844675d09a72ace) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/#NVJOB Simple Water Shaders/Examples Water/Materials/Textures/Water H.png using Guid(d2c21b3117b24b749844675d09a72ace) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6866d12484f16100012383640c3d47b5') in 0.079056 seconds
-  Import took 0.081396 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000320 seconds.
-  path: Assets/#NVJOB Simple Water Shaders/Examples Water/Materials/Textures/Water N 1.png
-  artifactKey: Guid(0402941ce4e74e24abb686de97205888) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/#NVJOB Simple Water Shaders/Examples Water/Materials/Textures/Water N 1.png using Guid(0402941ce4e74e24abb686de97205888) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f69bc47bdf2c547452be2f83058f7f97') in 0.022111 seconds
-  Import took 0.024429 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000265 seconds.
-  path: Assets/#NVJOB Simple Water Shaders/Examples Water/Materials/Textures/Water A 1.png
-  artifactKey: Guid(8dfd1f80c63a4d9e8e649a0b29ad9cb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/#NVJOB Simple Water Shaders/Examples Water/Materials/Textures/Water A 1.png using Guid(8dfd1f80c63a4d9e8e649a0b29ad9cb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b063e2ce921559f7ebd967d6b35d4fc') in 0.018352 seconds
-  Import took 0.021532 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000366 seconds.
-  path: Assets/#NVJOB Simple Water Shaders/Examples Water/Materials/Textures/Water A 0.png
-  artifactKey: Guid(c0b6bf8318ac49428d178d00fb333969) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/#NVJOB Simple Water Shaders/Examples Water/Materials/Textures/Water A 0.png using Guid(c0b6bf8318ac49428d178d00fb333969) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4fd6b6a2ed9accc135032943aaf2223') in 0.017463 seconds
-  Import took 0.020355 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000257 seconds.
-  path: Assets/#NVJOB Simple Water Shaders/Examples Water/Materials/Textures/Water N 0.png
-  artifactKey: Guid(caecb7663e614c0e8d1cf595085ee759) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/#NVJOB Simple Water Shaders/Examples Water/Materials/Textures/Water N 0.png using Guid(caecb7663e614c0e8d1cf595085ee759) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '122cb84733ea62509f9e5a7e333f663c') in 0.019492 seconds
-  Import took 0.022961 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 12.274816 seconds.
-  path: Assets/#NVJOB Simple Water Shaders/Examples Water/Materials/Materials
-  artifactKey: Guid(2a3364f14aa1ea14999f7669100dd988) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/#NVJOB Simple Water Shaders/Examples Water/Materials/Materials using Guid(2a3364f14aa1ea14999f7669100dd988) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ea9bcc8d95e9a8a7f76afe20858aed6') in 0.005030 seconds
-  Import took 0.007956 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.073595 seconds.
-  path: Assets/#NVJOB Simple Water Shaders/Examples Water/Materials/Materials/Water H.mat
-  artifactKey: Guid(9ad2cf4880c6e674b8ec80009efea62e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/#NVJOB Simple Water Shaders/Examples Water/Materials/Materials/Water H.mat using Guid(9ad2cf4880c6e674b8ec80009efea62e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82bd08237c2c0d8984cc9727b8982a8c') in 0.014333 seconds
-  Import took 0.016752 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000364 seconds.
-  path: Assets/#NVJOB Simple Water Shaders/Examples Water/Materials/Materials/Water N 1.mat
-  artifactKey: Guid(b6e56b294b1f46d42870ff5f05f1ad82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/#NVJOB Simple Water Shaders/Examples Water/Materials/Materials/Water N 1.mat using Guid(b6e56b294b1f46d42870ff5f05f1ad82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae3c615759c963828d6f7364a1f9bbd7') in 0.017052 seconds
-  Import took 0.019630 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000325 seconds.
-  path: Assets/#NVJOB Simple Water Shaders/Examples Water/Materials/Materials/Water N 0.mat
-  artifactKey: Guid(9c8f10e9448cd73478b56ee0cd4d008c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/#NVJOB Simple Water Shaders/Examples Water/Materials/Materials/Water N 0.mat using Guid(9c8f10e9448cd73478b56ee0cd4d008c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb13ee3f837c9f5186ef78e259e9be56') in 0.019461 seconds
-  Import took 0.022656 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 40.090637 seconds.
-  path: Assets/_DesertKits64_Sample/Materials
-  artifactKey: Guid(a967945624e591b4795d0bafce47f676) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_DesertKits64_Sample/Materials using Guid(a967945624e591b4795d0bafce47f676) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df59eba763939e341c1962cc456f63e8') in 0.004644 seconds
-  Import took 0.007364 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.061380 seconds.
-  path: Assets/_DesertKits64_Sample/Materials/Desert_Sand_Sample256.mat
-  artifactKey: Guid(eeefa710181736c4b9737b88c2c29069) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_DesertKits64_Sample/Materials/Desert_Sand_Sample256.mat using Guid(eeefa710181736c4b9737b88c2c29069) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c82d6167c66c6fccf85d68bfda729f5e') in 0.269502 seconds
-  Import took 0.272811 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000422 seconds.
-  path: Assets/_DesertKits64_Sample/Materials/DesertKits_Sand_Sample256.mat
-  artifactKey: Guid(b03fd302b02c06043a6f3bb6eadb1eea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_DesertKits64_Sample/Materials/DesertKits_Sand_Sample256.mat using Guid(b03fd302b02c06043a6f3bb6eadb1eea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7abfb2de21403f736c49e39149be6a21') in 0.085111 seconds
-  Import took 0.088088 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000373 seconds.
-  path: Assets/_DesertKits64_Sample/Materials/DesertKitsAtlas_Sample512.mat
-  artifactKey: Guid(8e6c8d4e4f05fe44b8c2d2b569a5d1bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/_DesertKits64_Sample/Materials/DesertKitsAtlas_Sample512.mat using Guid(8e6c8d4e4f05fe44b8c2d2b569a5d1bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b06c67b143682c921e6e6e5d94836ee5') in 0.221321 seconds
-  Import took 0.224375 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.443027 seconds.
-  path: Assets/Beach Essentials/Crown 1.mat
-  artifactKey: Guid(27bcc04a29699b7498c25c168c5f16c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Beach Essentials/Crown 1.mat using Guid(27bcc04a29699b7498c25c168c5f16c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f1749b9a02e7faf2ba70b0b84965372') in 0.118507 seconds
-  Import took 0.121119 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000531 seconds.
-  path: Assets/Beach Essentials/Spider_Crown_Mesh.fbx
-  artifactKey: Guid(33184009047f66d4dac6d48740ce5518) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Beach Essentials/Spider_Crown_Mesh.fbx using Guid(33184009047f66d4dac6d48740ce5518) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '078437fea2a6ab6025fa7bc1694e582c') in 0.080309 seconds
-  Import took 0.083465 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000354 seconds.
-  path: Assets/Beach Essentials/Crown_Spider.mat
-  artifactKey: Guid(1ce859314242bdb4fbb68039283e5da4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Beach Essentials/Crown_Spider.mat using Guid(1ce859314242bdb4fbb68039283e5da4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b17028df3fa3458c90208f3da39915c9') in 0.019288 seconds
-  Import took 0.022637 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000352 seconds.
-  path: Assets/Beach Essentials/Crown.mat
-  artifactKey: Guid(54ea6f7a3a3f64d42b4e36a4636c3595) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Beach Essentials/Crown.mat using Guid(54ea6f7a3a3f64d42b4e36a4636c3595) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8461e81efb56554fdbe1be3bf2b75ce9') in 0.016680 seconds
-  Import took 0.019897 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000411 seconds.
-  path: Assets/Beach Essentials/Sword.mat
-  artifactKey: Guid(d4f02e609205e6742805660d5bd5c344) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Beach Essentials/Sword.mat using Guid(d4f02e609205e6742805660d5bd5c344) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcff66713f4c9d0666e7a1ab1c12790c') in 0.020546 seconds
-  Import took 0.023979 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000322 seconds.
-  path: Assets/Beach Essentials/Crown.mat
-  artifactKey: Guid(54ea6f7a3a3f64d42b4e36a4636c3595) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Beach Essentials/Crown.mat using Guid(54ea6f7a3a3f64d42b4e36a4636c3595) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8461e81efb56554fdbe1be3bf2b75ce9') in 0.010529 seconds
-  Import took 0.013302 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.003411 seconds.
-  path: Assets/Beach Essentials/Sword.mat
-  artifactKey: Guid(d4f02e609205e6742805660d5bd5c344) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Beach Essentials/Sword.mat using Guid(d4f02e609205e6742805660d5bd5c344) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcff66713f4c9d0666e7a1ab1c12790c') in 0.011772 seconds
-  Import took 0.015554 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.929495 seconds.
-  path: Assets/Beach Essentials/Materials
-  artifactKey: Guid(8bb79b4c2ac9846548b1008429cadd73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Beach Essentials/Materials using Guid(8bb79b4c2ac9846548b1008429cadd73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd90228bae412eb75a49190decc741e1a') in 0.004713 seconds
-  Import took 0.007433 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.057435 seconds.
-  path: Assets/Beach Essentials/Materials/BeachBall1.mat
-  artifactKey: Guid(75d4a74b69bb54a4cb36b3d1754fb6f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Beach Essentials/Materials/BeachBall1.mat using Guid(75d4a74b69bb54a4cb36b3d1754fb6f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83aba406983c458e6718cc8f3e43d67b') in 0.018773 seconds
-  Import took 0.022504 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000304 seconds.
-  path: Assets/Beach Essentials/Materials/WhitePlastic 2.mat
-  artifactKey: Guid(97ada3cbe8c0640b2847fa7b7916757d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Beach Essentials/Materials/WhitePlastic 2.mat using Guid(97ada3cbe8c0640b2847fa7b7916757d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9392cef2261d35e108777d8fcec787a') in 0.124662 seconds
-  Import took 0.127145 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000281 seconds.
-  path: Assets/Beach Essentials/Materials/BeachSky.mat
-  artifactKey: Guid(26093e06623964a08b877b28306de052) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Beach Essentials/Materials/BeachSky.mat using Guid(26093e06623964a08b877b28306de052) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdae8adb5f640d494bcef4d3c1b2fb6f') in 0.019224 seconds
-  Import took 0.022575 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000360 seconds.
-  path: Assets/Beach Essentials/Materials/Surfboard2.mat
-  artifactKey: Guid(c75328459bad64f998651ef2b233fb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Beach Essentials/Materials/Surfboard2.mat using Guid(c75328459bad64f998651ef2b233fb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '322a5dcc390624412b1e77c15e18db69') in 0.020156 seconds
-  Import took 0.023173 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000311 seconds.
-  path: Assets/Beach Essentials/Materials/Surfboard3.mat
-  artifactKey: Guid(0ad6a4824b3774ac291f37f576322037) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Beach Essentials/Materials/Surfboard3.mat using Guid(0ad6a4824b3774ac291f37f576322037) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '183adc4aee4f13083f6bf91bccfe9a79') in 0.020448 seconds
-  Import took 0.024544 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000295 seconds.
-  path: Assets/Beach Essentials/Materials/Fabric3.mat
-  artifactKey: Guid(fe9dbc30a401e48a588e7f750038f554) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Beach Essentials/Materials/Fabric3.mat using Guid(fe9dbc30a401e48a588e7f750038f554) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f2c8591176da0d2b2261a6f2fbabf13') in 0.204617 seconds
-  Import took 0.207456 seconds .
+  Time since last request: 0.000363 seconds.
+  path: Assets/SkySerie Freebie/FreebieHdri/FluffballDayTop.hdr
+  artifactKey: Guid(c769857dc541ab7449d1352d7ff46ce8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkySerie Freebie/FreebieHdri/FluffballDayTop.hdr using Guid(c769857dc541ab7449d1352d7ff46ce8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '430ae28cc88fd084b38a126c55080019') in 0.030159 seconds
+  Import took 0.033380 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000274 seconds.
-  path: Assets/Beach Essentials/Materials/BeachBall2.mat
-  artifactKey: Guid(a600b4815c5bb415685973f956343f12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Beach Essentials/Materials/BeachBall2.mat using Guid(a600b4815c5bb415685973f956343f12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2c485cd2b526174064a6ea6853d27e7') in 0.016907 seconds
-  Import took 0.019442 seconds .
+  path: Assets/ToonyTinyPeople/TT_demo/models/TT_demo_male_A.FBX
+  artifactKey: Guid(eb062aa776e44954d94c4c2f76ebc148) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ToonyTinyPeople/TT_demo/models/TT_demo_male_A.FBX using Guid(eb062aa776e44954d94c4c2f76ebc148) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e86077950523c19d905518ddb2c7186') in 0.405882 seconds
+  Import took 0.409299 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000313 seconds.
-  path: Assets/Beach Essentials/Materials/WhiteFaric.mat
-  artifactKey: Guid(9adef8f06f4ce49ec83bbe26b0ec3e12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Beach Essentials/Materials/WhiteFaric.mat using Guid(9adef8f06f4ce49ec83bbe26b0ec3e12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4455d74134b928dd11e48dee67552d53') in 0.019878 seconds
-  Import took 0.023239 seconds .
+  Time since last request: 0.000245 seconds.
+  path: Assets/TheCloudCreator/Single Assets/000002 - Beach Bat/Prefabs/RubberBall1.prefab
+  artifactKey: Guid(dd3845f92e418f642874057333b4a176) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TheCloudCreator/Single Assets/000002 - Beach Bat/Prefabs/RubberBall1.prefab using Guid(dd3845f92e418f642874057333b4a176) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '234c12b6aea0d2e0bbd5cd2aeb2b4b30') in 0.461674 seconds
+  Import took 0.465051 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000322 seconds.
-  path: Assets/Beach Essentials/Materials/Fabric8.mat
-  artifactKey: Guid(9c3f373e8bdbb4b308dc4785f9fd3cf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Beach Essentials/Materials/Fabric8.mat using Guid(9c3f373e8bdbb4b308dc4785f9fd3cf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '182405339b6a06db2978ae85b220f313') in 0.020402 seconds
-  Import took 0.023660 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000322 seconds.
-  path: Assets/Beach Essentials/Materials/Chrome.mat
-  artifactKey: Guid(41072158194174af7ae91b0a3e174ad1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Beach Essentials/Materials/Chrome.mat using Guid(41072158194174af7ae91b0a3e174ad1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54cfc5560206078c8a03e2c48dc7ec61') in 0.018658 seconds
-  Import took 0.022232 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000506 seconds.
-  path: Assets/Beach Essentials/Materials/Fabric5.mat
-  artifactKey: Guid(d712a291794654f418746ad05b334dde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Beach Essentials/Materials/Fabric5.mat using Guid(d712a291794654f418746ad05b334dde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0148bcb87de2b16ef8e8143db8befef') in 0.021212 seconds
-  Import took 0.025091 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000292 seconds.
-  path: Assets/Beach Essentials/Materials/Sand 1.mat
-  artifactKey: Guid(3af64082e921c41879686609e4abf04e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Beach Essentials/Materials/Sand 1.mat using Guid(3af64082e921c41879686609e4abf04e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01e4f301a0477f8477760bf3daedeff3') in 0.021955 seconds
-  Import took 0.025343 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000309 seconds.
-  path: Assets/Beach Essentials/Materials/Posts.mat
-  artifactKey: Guid(3985ea8d37a144d8ea14e1b990323cb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Beach Essentials/Materials/Posts.mat using Guid(3985ea8d37a144d8ea14e1b990323cb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f15e4605a3d62a9050bba51d8c49e668') in 0.020491 seconds
-  Import took 0.024205 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000365 seconds.
-  path: Assets/Beach Essentials/Materials/Lifeguardsign.mat
-  artifactKey: Guid(8f15b41e787a846bca9f97ace068ce58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Beach Essentials/Materials/Lifeguardsign.mat using Guid(8f15b41e787a846bca9f97ace068ce58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bbc09aec15028e135959841608d01ff') in 0.020862 seconds
-  Import took 0.024307 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000414 seconds.
-  path: Assets/Beach Essentials/Materials/WhiteMetal.mat
-  artifactKey: Guid(884a832ee5d774caf9f79c343345c662) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Beach Essentials/Materials/WhiteMetal.mat using Guid(884a832ee5d774caf9f79c343345c662) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ac613e07d911b1360bfe6780f9c1e9c') in 0.018906 seconds
-  Import took 0.022136 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000279 seconds.
-  path: Assets/Beach Essentials/Materials/Fabric2.mat
-  artifactKey: Guid(8fd939acca2474f6fb6e9875621db1c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Beach Essentials/Materials/Fabric2.mat using Guid(8fd939acca2474f6fb6e9875621db1c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '924e7086bf506481047db70a99388fd2') in 0.020749 seconds
-  Import took 0.023863 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000319 seconds.
-  path: Assets/Beach Essentials/Materials/Lifeguardsign 1.mat
-  artifactKey: Guid(12b4978b5b978488b8551215b2bf31aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Beach Essentials/Materials/Lifeguardsign 1.mat using Guid(12b4978b5b978488b8551215b2bf31aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7413680e2ac3a4a8c3db4553b573a33') in 0.019618 seconds
-  Import took 0.022488 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000321 seconds.
-  path: Assets/Beach Essentials/Materials/RedFabric.mat
-  artifactKey: Guid(ab3002cc8d859499ca0396944e01a510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Beach Essentials/Materials/RedFabric.mat using Guid(ab3002cc8d859499ca0396944e01a510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54f9c6a317baeabc25394b99f2c4c4b3') in 0.019378 seconds
-  Import took 0.022060 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000278 seconds.
-  path: Assets/Beach Essentials/Materials/WhitePlastic 1.mat
-  artifactKey: Guid(5c01bc643ce864e17a6bf4f822fcab5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Beach Essentials/Materials/WhitePlastic 1.mat using Guid(5c01bc643ce864e17a6bf4f822fcab5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3e767d270ab9eae916f045b5c00a541') in 0.019236 seconds
-  Import took 0.021918 seconds .
+  Time since last request: 0.000226 seconds.
+  path: Assets/SkySerie Freebie/FreebieHdri/FluffballDayFront.hdr
+  artifactKey: Guid(4499836ec803a0443834895abc208fba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkySerie Freebie/FreebieHdri/FluffballDayFront.hdr using Guid(4499836ec803a0443834895abc208fba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c66539db96f2ab4a24263014df62822') in 0.029312 seconds
+  Import took 0.032927 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000244 seconds.
-  path: Assets/Beach Essentials/Materials/Sand.mat
-  artifactKey: Guid(36dc31c319681407abc2da4ddfe78a8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Beach Essentials/Materials/Sand.mat using Guid(36dc31c319681407abc2da4ddfe78a8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cadfdc5c851a3deafc096788d6c067d') in 0.019120 seconds
-  Import took 0.022163 seconds .
+  path: Assets/Beach Essentials/Textures/volleyballnormal.png
+  artifactKey: Guid(ffed944801b3443688d6a8e5c42ad4c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Beach Essentials/Textures/volleyballnormal.png using Guid(ffed944801b3443688d6a8e5c42ad4c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1058368bf5800fe1e7c989e1f09605d8') in 0.055752 seconds
+  Import took 0.060737 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000292 seconds.
-  path: Assets/Beach Essentials/Materials/BlackPlastic.mat
-  artifactKey: Guid(df824209ab05748989e1dd73d46b4978) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Beach Essentials/Materials/BlackPlastic.mat using Guid(df824209ab05748989e1dd73d46b4978) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5d35cb4159b8df68373308a95ae1ea9') in 0.017186 seconds
-  Import took 0.020702 seconds .
+  Time since last request: 0.000235 seconds.
+  path: Assets/Beach Essentials/Prefabs/VolleyballNet.prefab
+  artifactKey: Guid(60f00f9b917704995bf06e2fd3c2c543) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Beach Essentials/Prefabs/VolleyballNet.prefab using Guid(60f00f9b917704995bf06e2fd3c2c543) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bba5c3b54ee9ef7b2a6b856d1499e00') in 0.063941 seconds
+  Import took 0.067294 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000255 seconds.
-  path: Assets/Beach Essentials/Materials/Volleyball 1.mat
-  artifactKey: Guid(ac93a65f4d73b4041a1cb8e20232cb01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Beach Essentials/Materials/Volleyball 1.mat using Guid(ac93a65f4d73b4041a1cb8e20232cb01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd0cc2aa0fdd9d4020a20f4ced056ff8') in 0.016995 seconds
-  Import took 0.019537 seconds .
+  Time since last request: 0.000369 seconds.
+  path: Assets/Beach Essentials/Meshes/Beachball.fbx
+  artifactKey: Guid(f88b3d4b18f3b4e91bd18e5d4dcc1469) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Beach Essentials/Meshes/Beachball.fbx using Guid(f88b3d4b18f3b4e91bd18e5d4dcc1469) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6d6dd9e82d8a32d8ff7d73c9f28ee5f') in 0.075416 seconds
+  Import took 0.078436 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000222 seconds.
-  path: Assets/Beach Essentials/Materials/Fabric4.mat
-  artifactKey: Guid(fb26b5aa34c5648cd8e5d98b4bd570c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Beach Essentials/Materials/Fabric4.mat using Guid(fb26b5aa34c5648cd8e5d98b4bd570c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db28f1a05e34561182bf383ddb6509da') in 0.018065 seconds
-  Import took 0.021041 seconds .
+  Time since last request: 0.000208 seconds.
+  path: Assets/Beach Essentials/Textures/Beachball1.png
+  artifactKey: Guid(7f98de9377d88466a992d9bfb2b4aac1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Beach Essentials/Textures/Beachball1.png using Guid(7f98de9377d88466a992d9bfb2b4aac1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a21e110bdb7b85b6208d2226a07f7df') in 0.022571 seconds
+  Import took 0.025266 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/SkySerie Freebie/FreebieHdri/FluffballDayBack.hdr
+  artifactKey: Guid(50762494be58d144d98d179cd6ba1470) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkySerie Freebie/FreebieHdri/FluffballDayBack.hdr using Guid(50762494be58d144d98d179cd6ba1470) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8f1ecd1f626f978f91267d170f3b433') in 0.027001 seconds
+  Import took 0.030184 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000321 seconds.
+  path: Assets/Beach Essentials/Prefabs/Volleyball.prefab
+  artifactKey: Guid(60f4bdfb49a7840a2989bbd741e814f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Beach Essentials/Prefabs/Volleyball.prefab using Guid(60f4bdfb49a7840a2989bbd741e814f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58b7dc688a83df7cbb0eecbf64e8e825') in 0.045466 seconds
+  Import took 0.049028 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000493 seconds.
+  path: Assets/Beach Essentials/Textures/Beachball2.png
+  artifactKey: Guid(d158d3939027948e8b28c26ac4ad2802) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Beach Essentials/Textures/Beachball2.png using Guid(d158d3939027948e8b28c26ac4ad2802) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11de7251d1ec82d00e274f20ffbd0f06') in 0.019533 seconds
+  Import took 0.022825 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000304 seconds.
+  path: Assets/SkySerie Freebie/6SidedFluffball.mat
+  artifactKey: Guid(efd1c33efd2d58340b88804268e6833f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkySerie Freebie/6SidedFluffball.mat using Guid(efd1c33efd2d58340b88804268e6833f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e27dd9d7e13f08e58420275b08b3ccc') in 0.303818 seconds
+  Import took 0.306835 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/Beach Essentials/Prefabs/Beachball2.prefab
+  artifactKey: Guid(7e2ebd9ccc7214b6abf033ced06d3c20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Beach Essentials/Prefabs/Beachball2.prefab using Guid(7e2ebd9ccc7214b6abf033ced06d3c20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42772655eb13d6d4312b573f964f45db') in 0.018941 seconds
+  Import took 0.022658 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000333 seconds.
+  path: Assets/TheCloudCreator/Single Assets/000002 - Beach Bat/Prefabs/RubberBall3.prefab
+  artifactKey: Guid(ab68bb2a75df72d45857882bc4ff6c94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TheCloudCreator/Single Assets/000002 - Beach Bat/Prefabs/RubberBall3.prefab using Guid(ab68bb2a75df72d45857882bc4ff6c94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ca3ff8155c28aed634c32dd1495b894') in 0.038138 seconds
+  Import took 0.040706 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/Beach Essentials/Meshes/VolleyballNet.fbx
+  artifactKey: Guid(e7ca39643562c43ed8c0bd6af4dc4645) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Beach Essentials/Meshes/VolleyballNet.fbx using Guid(e7ca39643562c43ed8c0bd6af4dc4645) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8aba5450232e5c275b92ce6cf70d266b') in 0.074200 seconds
+  Import took 0.077771 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000854 seconds.
+  path: Assets/SkySerie Freebie/FreebieHdri/FluffballDayBottom.hdr
+  artifactKey: Guid(42e0664ae4c5c424ebcd980a10687e18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkySerie Freebie/FreebieHdri/FluffballDayBottom.hdr using Guid(42e0664ae4c5c424ebcd980a10687e18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43af5ad8b7de32717a3c6587c40ff781') in 0.017971 seconds
+  Import took 0.021153 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000302 seconds.
+  path: Assets/SkySerie Freebie/FreebieHdri/FluffballDay4k.hdr
+  artifactKey: Guid(3e80b688af9b1d84ea52c5d36bb1cbbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkySerie Freebie/FreebieHdri/FluffballDay4k.hdr using Guid(3e80b688af9b1d84ea52c5d36bb1cbbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ff7f3a609ad1e7bfd0cbb3605909916') in 0.109186 seconds
+  Import took 0.114121 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/Beach Essentials/Meshes/Volleyball.fbx
+  artifactKey: Guid(c71923256946c49c593eeeb3adb0590b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Beach Essentials/Meshes/Volleyball.fbx using Guid(c71923256946c49c593eeeb3adb0590b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '029d54c9189eba6f99334c74c64885de') in 0.052617 seconds
+  Import took 0.056127 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000323 seconds.
+  path: Assets/Beach Essentials/Prefabs/Old Volleyball.prefab
+  artifactKey: Guid(2b90d0c38e99d41acaa02470d023066d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Beach Essentials/Prefabs/Old Volleyball.prefab using Guid(2b90d0c38e99d41acaa02470d023066d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5c906a66a204e7e09fe0497f907fb9f') in 0.038371 seconds
+  Import took 0.041160 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/SkySerie Freebie/FreebieHdri/FluffballDayRight.hdr
+  artifactKey: Guid(669daa4bd63e4204dacb9aa01a164a7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkySerie Freebie/FreebieHdri/FluffballDayRight.hdr using Guid(669daa4bd63e4204dacb9aa01a164a7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48bb3c776daf601085d8277bc59ec6ff') in 0.017839 seconds
+  Import took 0.020792 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Assets/Beach Essentials/Prefabs/Beachball.prefab
+  artifactKey: Guid(a53dc7c14dd524d869aff830ceb6addb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Beach Essentials/Prefabs/Beachball.prefab using Guid(a53dc7c14dd524d869aff830ceb6addb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c02cdf71f8b3be2fc42c026bc996a319') in 0.029669 seconds
+  Import took 0.033551 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000256 seconds.
+  path: Assets/SkySerie Freebie/FluffballDay.mat
+  artifactKey: Guid(20d4f77b9022eab48b4d94599ed4bf82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SkySerie Freebie/FluffballDay.mat using Guid(20d4f77b9022eab48b4d94599ed4bf82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11f20715e767594a2e1e8bfc567d0e05') in 0.067975 seconds
+  Import took 0.075717 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000469 seconds.
+  path: Assets/Beach Essentials/Textures/Volleyball.png
+  artifactKey: Guid(7be49c2df59dd4cd3a1e562a7c4a3ab6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Beach Essentials/Textures/Volleyball.png using Guid(7be49c2df59dd4cd3a1e562a7c4a3ab6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb33fd3041e0813914635433c0959826') in 0.012374 seconds
+  Import took 0.015121 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000256 seconds.
+  path: Assets/TheCloudCreator/Single Assets/000002 - Beach Bat/Meshes/BeachBat.FBX
+  artifactKey: Guid(4fc6172336d353141ada2d836e213efd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TheCloudCreator/Single Assets/000002 - Beach Bat/Meshes/BeachBat.FBX using Guid(4fc6172336d353141ada2d836e213efd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25392110304d213faf06af864a45aef0') in 0.058094 seconds
+  Import took 0.061184 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/JMO Assets/Cartoon FX/CFX Prefabs/Electric/CFX_ElectricityBall.prefab
+  artifactKey: Guid(77ec3c4e07a36814fb3169ecef41b50a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX/CFX Prefabs/Electric/CFX_ElectricityBall.prefab using Guid(77ec3c4e07a36814fb3169ecef41b50a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ba701e6b540dd9c4c4e5e1c97d34821') in 0.016991 seconds
+  Import took 0.019949 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 56.932680 seconds.
+  path: Assets/Scripts/Ball.cs
+  artifactKey: Guid(2f6f884dd63fa024baeee1116e261687) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Ball.cs using Guid(2f6f884dd63fa024baeee1116e261687) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6dfd33467fa9bda3ddc02903bacc4635') in 0.015345 seconds
+  Import took 0.018976 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 34.694887 seconds.
+  path: Assets/Prefab/LoseTextBeach.prefab
+  artifactKey: Guid(92156ba664eac8c4996df11d4689d9b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/LoseTextBeach.prefab using Guid(92156ba664eac8c4996df11d4689d9b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38a6bb8922a7326ed18b41df45b2ed70') in 0.035472 seconds
+  Import took 0.041520 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005495 seconds.
+  path: Assets/Prefab/LoseTextBeach.prefab
+  artifactKey: Guid(92156ba664eac8c4996df11d4689d9b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/LoseTextBeach.prefab using Guid(92156ba664eac8c4996df11d4689d9b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38a6bb8922a7326ed18b41df45b2ed70') in 0.022006 seconds
+  Import took 0.025647 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004373 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.50 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.109 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.66 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1228 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.0 MB.
+System memory in use after: 88.1 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 1788.
+Total: 2.491000 ms (FindLiveObjects: 0.317900 ms CreateObjectMapping: 0.088500 ms MarkObjects: 1.999700 ms  DeleteObjects: 0.062200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 483.792846 seconds.
+  path: Assets/Free 2D Adventure Beach Pack/day-backgrounds/beach-cloud-01.png
+  artifactKey: Guid(b928bb9af722d604a8c961b6e15e4885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free 2D Adventure Beach Pack/day-backgrounds/beach-cloud-01.png using Guid(b928bb9af722d604a8c961b6e15e4885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '957a778869502cc9757398ae6c71ea46') in 0.104808 seconds
+  Import took 0.109683 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000296 seconds.
+  path: Assets/Free 2D Adventure Beach Pack/day-backgrounds/beach-cloud-03.png
+  artifactKey: Guid(4c1e199e844355f4eb3e54698bc734a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free 2D Adventure Beach Pack/day-backgrounds/beach-cloud-03.png using Guid(4c1e199e844355f4eb3e54698bc734a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c22dd2f1224c4c93bc0a09366e1f6aa') in 0.026663 seconds
+  Import took 0.030440 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000265 seconds.
-  path: Assets/Beach Essentials/Materials/Surfboard1.mat
-  artifactKey: Guid(4d7e58d296561408a9a866c4139855c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Beach Essentials/Materials/Surfboard1.mat using Guid(4d7e58d296561408a9a866c4139855c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f9eb8747b1ec43f51ecbcfce1e114ea') in 0.016878 seconds
-  Import took 0.020014 seconds .
+  path: Assets/JMO Assets/Cartoon FX/Demo/UI Canvas/CFX Demo Btn Ground H.png
+  artifactKey: Guid(5cc9c4a6db9a74a40aaed761fc99294c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX/Demo/UI Canvas/CFX Demo Btn Ground H.png using Guid(5cc9c4a6db9a74a40aaed761fc99294c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97417ea07fa8be002b47d4f670c9da87') in 0.033992 seconds
+  Import took 0.038355 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000238 seconds.
-  path: Assets/Beach Essentials/Materials/Lifesaver.mat
-  artifactKey: Guid(5b25c14862c814f9d96a6e87aa9309fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Beach Essentials/Materials/Lifesaver.mat using Guid(5b25c14862c814f9d96a6e87aa9309fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4947fde35efa4db37477c247221a15c0') in 0.017797 seconds
-  Import took 0.020969 seconds .
+  Time since last request: 0.000278 seconds.
+  path: Assets/Free 2D Adventure Beach Pack/day-backgrounds/beach-cloud-03.png
+  artifactKey: Guid(4c1e199e844355f4eb3e54698bc734a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free 2D Adventure Beach Pack/day-backgrounds/beach-cloud-03.png using Guid(4c1e199e844355f4eb3e54698bc734a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c22dd2f1224c4c93bc0a09366e1f6aa') in 0.015787 seconds
+  Import took 0.019917 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000293 seconds.
-  path: Assets/Beach Essentials/Materials/RedPlastic.mat
-  artifactKey: Guid(0b9b5e31bf5fd47ae8ad9c8ea777fd0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Beach Essentials/Materials/RedPlastic.mat using Guid(0b9b5e31bf5fd47ae8ad9c8ea777fd0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92a54878f150ec003e8c3d28868fb667') in 0.017579 seconds
-  Import took 0.020520 seconds .
+  Time since last request: 0.000222 seconds.
+  path: Assets/Free 2D Adventure Beach Pack/sunset-backgrounds/sunset-beach-cloud-01.png
+  artifactKey: Guid(8aed4928e775b05458e7c052024c5b57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free 2D Adventure Beach Pack/sunset-backgrounds/sunset-beach-cloud-01.png using Guid(8aed4928e775b05458e7c052024c5b57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c916c50197752a79f8115ed1b0d46de1') in 0.028744 seconds
+  Import took 0.032392 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000211 seconds.
-  path: Assets/Beach Essentials/Materials/Fabric6.mat
-  artifactKey: Guid(0b11536d6501e4d0796c15bacf8e9d9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Beach Essentials/Materials/Fabric6.mat using Guid(0b11536d6501e4d0796c15bacf8e9d9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3f70e4ca05003df0e120d530b8e5ae4') in 0.018016 seconds
-  Import took 0.021338 seconds .
+  Time since last request: 0.000195 seconds.
+  path: Assets/Free 2D Adventure Beach Pack/night-backgrounds/night-sea.png
+  artifactKey: Guid(e404f0a4c78ff58459dd3b82bb140d03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free 2D Adventure Beach Pack/night-backgrounds/night-sea.png using Guid(e404f0a4c78ff58459dd3b82bb140d03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd94889ecb12e0cdbfcc600745928ca5') in 0.028545 seconds
+  Import took 0.032253 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000294 seconds.
-  path: Assets/Beach Essentials/Materials/Fabric1.mat
-  artifactKey: Guid(e55dcda15a8784e7692545198b29d62a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Beach Essentials/Materials/Fabric1.mat using Guid(e55dcda15a8784e7692545198b29d62a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1120e514dcb977cc5e1e562941271814') in 0.019418 seconds
-  Import took 0.022438 seconds .
+  Time since last request: 0.000222 seconds.
+  path: Assets/JMO Assets/Cartoon FX/Demo/UI Canvas/CFX1 Demo Logo.png
+  artifactKey: Guid(f7c98b268308d794b8148d0c2914372d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX/Demo/UI Canvas/CFX1 Demo Logo.png using Guid(f7c98b268308d794b8148d0c2914372d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05ba3c3cb256e0aa142f54701d212b6e') in 0.026490 seconds
+  Import took 0.029871 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000206 seconds.
-  path: Assets/Beach Essentials/Materials/Volleyball.mat
-  artifactKey: Guid(4d22fd953ecfa4143bb41f29dd8db3e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Beach Essentials/Materials/Volleyball.mat using Guid(4d22fd953ecfa4143bb41f29dd8db3e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5b4cefb5c49b066404a56e44b06156e') in 0.019528 seconds
-  Import took 0.022031 seconds .
+  Time since last request: 0.000315 seconds.
+  path: Assets/Free 2D Adventure Beach Pack/day-backgrounds/beach-cloud-01.png
+  artifactKey: Guid(b928bb9af722d604a8c961b6e15e4885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free 2D Adventure Beach Pack/day-backgrounds/beach-cloud-01.png using Guid(b928bb9af722d604a8c961b6e15e4885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '957a778869502cc9757398ae6c71ea46') in 0.016195 seconds
+  Import took 0.020029 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000237 seconds.
-  path: Assets/Beach Essentials/Materials/Net.mat
-  artifactKey: Guid(d966003f22d68474395c27e53d4d590f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Beach Essentials/Materials/Net.mat using Guid(d966003f22d68474395c27e53d4d590f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7017483cf49578b9baecf71b749b85dd') in 0.020715 seconds
-  Import took 0.023077 seconds .
+  Time since last request: 0.000284 seconds.
+  path: Assets/Free 2D Adventure Beach Pack/night-backgrounds/night-wave-01.png
+  artifactKey: Guid(d42b8e74f256a214ca3f0a45117db02d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free 2D Adventure Beach Pack/night-backgrounds/night-wave-01.png using Guid(d42b8e74f256a214ca3f0a45117db02d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4955aab6ed82ea59f0534a35be9b3abb') in 0.033697 seconds
+  Import took 0.036493 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000229 seconds.
-  path: Assets/Beach Essentials/Materials/Fabric7.mat
-  artifactKey: Guid(80c6c8e023eef4694b914e9727e889a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Beach Essentials/Materials/Fabric7.mat using Guid(80c6c8e023eef4694b914e9727e889a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f8c6874381d879533557bb771aa9be6') in 0.019822 seconds
-  Import took 0.022708 seconds .
+  Time since last request: 0.000188 seconds.
+  path: Assets/Free 2D Adventure Beach Pack/night-backgrounds/night-beach-mountain-01.png
+  artifactKey: Guid(000d1e68df8142e429f77f7e8f69e138) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free 2D Adventure Beach Pack/night-backgrounds/night-beach-mountain-01.png using Guid(000d1e68df8142e429f77f7e8f69e138) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6cfe684d63b2eb2427173fcb47888fd') in 0.029711 seconds
+  Import took 0.032929 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/Free 2D Adventure Beach Pack/night-backgrounds/night-beach-cloud-01.png
+  artifactKey: Guid(4449ad5b30ffc8e4d8f6fb57caddc264) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free 2D Adventure Beach Pack/night-backgrounds/night-beach-cloud-01.png using Guid(4449ad5b30ffc8e4d8f6fb57caddc264) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61c0958fa1806f3e151f459d95ee5dcb') in 0.027261 seconds
+  Import took 0.029944 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000287 seconds.
+  path: Assets/JMO Assets/Cartoon FX/Demo/UI Canvas/CFX Demo Btn Camera.png
+  artifactKey: Guid(4c72f3c555f96274787f31379fabb6ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX/Demo/UI Canvas/CFX Demo Btn Camera.png using Guid(4c72f3c555f96274787f31379fabb6ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d3031a33653761d8cfc2f29a5884a8a') in 0.030020 seconds
+  Import took 0.032446 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/JMO Assets/Cartoon FX/Demo/UI Canvas/CFX2 Demo Logo.png
+  artifactKey: Guid(5bd23007d5e4e2b48ad7618f94328601) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX/Demo/UI Canvas/CFX2 Demo Logo.png using Guid(5bd23007d5e4e2b48ad7618f94328601) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '259459b96691272dea67f7c376c90b36') in 0.027145 seconds
+  Import took 0.031206 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/JMO Assets/Cartoon FX/Demo/UI Canvas/CFX Demo Btn Camera H.png
+  artifactKey: Guid(90cdb91b8028d984b9adf63a23402f86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX/Demo/UI Canvas/CFX Demo Btn Camera H.png using Guid(90cdb91b8028d984b9adf63a23402f86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6e63de8f3e2b37ab65f60d19ff6b7e8') in 0.033351 seconds
+  Import took 0.035851 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/Free 2D Adventure Beach Pack/day-backgrounds/sea.png
+  artifactKey: Guid(4e58f37568590424c84e23ed57de844f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free 2D Adventure Beach Pack/day-backgrounds/sea.png using Guid(4e58f37568590424c84e23ed57de844f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c7bbbc6a9daeec3d6fbc89be589a3cb') in 0.028061 seconds
+  Import took 0.030483 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/Free 2D Adventure Beach Pack/night-backgrounds/night-beach-sky.png
+  artifactKey: Guid(7662955175de7594d82ecba6748cb9fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free 2D Adventure Beach Pack/night-backgrounds/night-beach-sky.png using Guid(7662955175de7594d82ecba6748cb9fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd48952b475f1c5e2165f9697e30f08c6') in 0.048089 seconds
+  Import took 0.051304 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/Free 2D Adventure Beach Pack/sunset-backgrounds/sunset-beach-sky.png
+  artifactKey: Guid(77aaa989fb436984f88203f41e3010c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free 2D Adventure Beach Pack/sunset-backgrounds/sunset-beach-sky.png using Guid(77aaa989fb436984f88203f41e3010c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af3d0e04dfb70d042e0486a2a6ff11c3') in 0.025662 seconds
+  Import took 0.028481 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/JMO Assets/Cartoon FX/Demo/UI Canvas/CFX Demo Btn Arrow.png
+  artifactKey: Guid(6ca93523b0317c242b05932fedb07cb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX/Demo/UI Canvas/CFX Demo Btn Arrow.png using Guid(6ca93523b0317c242b05932fedb07cb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89f7fa837cfa03c58993310b721ceb46') in 0.023208 seconds
+  Import took 0.026566 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000292 seconds.
+  path: Assets/JMO Assets/Cartoon FX/Demo/UI Canvas/CFX Demo Btn Arrow R.png
+  artifactKey: Guid(3783f195e2c8dc84cb1461fbe881e9cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX/Demo/UI Canvas/CFX Demo Btn Arrow R.png using Guid(3783f195e2c8dc84cb1461fbe881e9cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d95bf2670f23a4fcefaa70c8c176e96') in 0.024540 seconds
+  Import took 0.027264 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000268 seconds.
-  path: Assets/Beach Essentials/Materials/Rope.mat
-  artifactKey: Guid(0a45db726da4348389b2b4b2874befdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Beach Essentials/Materials/Rope.mat using Guid(0a45db726da4348389b2b4b2874befdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2280e4bac85f2814ff5e5aad1a3f2513') in 0.018182 seconds
-  Import took 0.021488 seconds .
+  path: Assets/Free 2D Adventure Beach Pack/day-backgrounds/beach-mountain-01.png
+  artifactKey: Guid(0642ff67fd5a90d4296a4f1f021b3600) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free 2D Adventure Beach Pack/day-backgrounds/beach-mountain-01.png using Guid(0642ff67fd5a90d4296a4f1f021b3600) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b6022e5e42613bb9b0d48bc980006fb') in 0.032829 seconds
+  Import took 0.035756 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000339 seconds.
-  path: Assets/Beach Essentials/Materials/WhitePlastic.mat
-  artifactKey: Guid(deafec7ce084d45b0b2094def4e6e184) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Beach Essentials/Materials/WhitePlastic.mat using Guid(deafec7ce084d45b0b2094def4e6e184) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73de0edbc5a2772fd0bd891a374a4f61') in 0.019468 seconds
-  Import took 0.022919 seconds .
+  Time since last request: 0.000214 seconds.
+  path: Assets/JMO Assets/Cartoon FX/Demo/UI Canvas/CFX Demo Btn SlowMo H.png
+  artifactKey: Guid(48624f05b683e4a4ab1a142e40fd6971) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX/Demo/UI Canvas/CFX Demo Btn SlowMo H.png using Guid(48624f05b683e4a4ab1a142e40fd6971) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35c73ba7c59e28301cb15cfd51d3fee9') in 0.046652 seconds
+  Import took 0.049803 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 26.304127 seconds.
-  path: Assets/Beach Essentials/Materials/Wood1.mat
-  artifactKey: Guid(e64535f49e86c4cd69e61347d9f26b07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Beach Essentials/Materials/Wood1.mat using Guid(e64535f49e86c4cd69e61347d9f26b07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7e45e2baafe5b3fb9c88c50b4215f59') in 0.034959 seconds
-  Import took 0.041246 seconds .
+  Time since last request: 0.000481 seconds.
+  path: Assets/Free 2D Adventure Beach Pack/day-backgrounds/beach-sky.png
+  artifactKey: Guid(36af45f817607e24a8da35618654b7cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free 2D Adventure Beach Pack/day-backgrounds/beach-sky.png using Guid(36af45f817607e24a8da35618654b7cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bf341ea0fc47d6af70a810617690003') in 0.028521 seconds
+  Import took 0.033247 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000596 seconds.
-  path: Assets/Beach Essentials/Materials/Wood3.mat
-  artifactKey: Guid(ee61f71bb34b34aff8862766ec19f24b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Beach Essentials/Materials/Wood3.mat using Guid(ee61f71bb34b34aff8862766ec19f24b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d082bcf1240724f060ac51819140d75') in 0.034560 seconds
-  Import took 0.039255 seconds .
+  Time since last request: 0.000198 seconds.
+  path: Assets/Free 2D Adventure Beach Pack/sunset-backgrounds/sunset-beach-mountain-01.png
+  artifactKey: Guid(16d7cbbe79dd16e489cd088551c93c95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free 2D Adventure Beach Pack/sunset-backgrounds/sunset-beach-mountain-01.png using Guid(16d7cbbe79dd16e489cd088551c93c95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '595f4dfb6f0445c3749f2beed7fcc3d5') in 0.032663 seconds
+  Import took 0.036319 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000478 seconds.
-  path: Assets/Beach Essentials/Materials/Wood2.mat
-  artifactKey: Guid(e3872ae9fef8e4ea4bdcb6408678f5d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Beach Essentials/Materials/Wood2.mat using Guid(e3872ae9fef8e4ea4bdcb6408678f5d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c547093647e18ef624d0629b36a1f59') in 0.033481 seconds
-  Import took 0.037337 seconds .
+  Time since last request: 0.000271 seconds.
+  path: Assets/Free 2D Adventure Beach Pack/sunset-backgrounds/sunset-beach-cloud-03.png
+  artifactKey: Guid(e4ecc41854fd60443a31fe65d8013f71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free 2D Adventure Beach Pack/sunset-backgrounds/sunset-beach-cloud-03.png using Guid(e4ecc41854fd60443a31fe65d8013f71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61e541ffd46b24bffbb317215e8d30c1') in 0.026431 seconds
+  Import took 0.029726 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/JMO Assets/Cartoon FX/Demo/UI Canvas/CFXFree Demo Logo.png
+  artifactKey: Guid(c474936d3f7aa204d8939cbe05170aa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX/Demo/UI Canvas/CFXFree Demo Logo.png using Guid(c474936d3f7aa204d8939cbe05170aa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d1978d6640045956f74309be5b9699c') in 0.025174 seconds
+  Import took 0.028999 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/JMO Assets/Cartoon FX/Demo/UI Canvas/CFX4 Demo Logo.png
+  artifactKey: Guid(db8ec42c9f48282458fe93cfc5f48a18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX/Demo/UI Canvas/CFX4 Demo Logo.png using Guid(db8ec42c9f48282458fe93cfc5f48a18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '849461fd272ceaf5013c2477e7db56d5') in 0.029037 seconds
+  Import took 0.031696 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/JMO Assets/Cartoon FX/Demo/UI Canvas/CFX Demo Btn SlowMo.png
+  artifactKey: Guid(5ec8fc5d939ea2244985ca77a114c9d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX/Demo/UI Canvas/CFX Demo Btn SlowMo.png using Guid(5ec8fc5d939ea2244985ca77a114c9d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edcc48659db54d0f4035d97a0b6a7627') in 0.028106 seconds
+  Import took 0.030882 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000317 seconds.
+  path: Assets/JMO Assets/Cartoon FX/Demo/UI Canvas/CFX3 Demo Logo.png
+  artifactKey: Guid(18a39eb748b6d664eb57f4b97b68bef3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX/Demo/UI Canvas/CFX3 Demo Logo.png using Guid(18a39eb748b6d664eb57f4b97b68bef3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd4b10792f11cc1bf9bd282550faf6c7') in 0.025112 seconds
+  Import took 0.029453 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000335 seconds.
+  path: Assets/Free 2D Adventure Beach Pack/night-backgrounds/night-beach-cloud-03.png
+  artifactKey: Guid(ba408030391c931409638bae4715dfae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free 2D Adventure Beach Pack/night-backgrounds/night-beach-cloud-03.png using Guid(ba408030391c931409638bae4715dfae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb07cd4dbb6daffc29dde9cc4c0dbff9') in 0.026546 seconds
+  Import took 0.030697 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000356 seconds.
+  path: Assets/JMO Assets/Cartoon FX/Demo/UI Canvas/CFX Demo Btn Ground.png
+  artifactKey: Guid(a2bcf923df54ffa4ba7e795955c5dc22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JMO Assets/Cartoon FX/Demo/UI Canvas/CFX Demo Btn Ground.png using Guid(a2bcf923df54ffa4ba7e795955c5dc22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31fa5806b82dfad86177b448cf797b9b') in 0.027027 seconds
+  Import took 0.030938 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.217031 seconds.
+  path: Assets/Free 2D Adventure Beach Pack/sunset-backgrounds/sunset-sea.png
+  artifactKey: Guid(845dd1b2a35a50a47bbcf4c5fc69ecca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free 2D Adventure Beach Pack/sunset-backgrounds/sunset-sea.png using Guid(845dd1b2a35a50a47bbcf4c5fc69ecca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48d7db7856f82ee036a82f7cea60975d') in 0.029220 seconds
+  Import took 0.033731 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000336 seconds.
+  path: Assets/Free 2D Adventure Beach Pack/sunset-backgrounds/sunset-wave-01.png
+  artifactKey: Guid(cef95f086fda84140b17040b5aee84c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free 2D Adventure Beach Pack/sunset-backgrounds/sunset-wave-01.png using Guid(cef95f086fda84140b17040b5aee84c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65e4ab722027a1749549fbe3285fe7d5') in 0.034257 seconds
+  Import took 0.038087 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000330 seconds.
+  path: Assets/Free 2D Adventure Beach Pack/day-backgrounds/wave-01.png
+  artifactKey: Guid(5d538a12cf3065a4e95980515de57a8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Free 2D Adventure Beach Pack/day-backgrounds/wave-01.png using Guid(5d538a12cf3065a4e95980515de57a8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7a4d133570dca7cd711ff95e12de52a') in 0.028853 seconds
+  Import took 0.032199 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.002289 seconds.
+Registered in 0.002077 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.42 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.057 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.51 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1228 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 78.0 MB.
-System memory in use after: 78.0 MB.
-
-Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 1814.
-Total: 1.883300 ms (FindLiveObjects: 0.181600 ms CreateObjectMapping: 0.059100 ms MarkObjects: 1.604100 ms  DeleteObjects: 0.037400 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002063 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.40 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.006 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.92 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1228 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 78.0 MB.
-System memory in use after: 78.1 MB.
-
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1817.
-Total: 2.061400 ms (FindLiveObjects: 0.229800 ms CreateObjectMapping: 0.080000 ms MarkObjects: 1.716600 ms  DeleteObjects: 0.034000 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003637 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.41 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.945 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.44 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1228 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 78.0 MB.
-System memory in use after: 78.1 MB.
-
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1820.
-Total: 1.922400 ms (FindLiveObjects: 0.182300 ms CreateObjectMapping: 0.058300 ms MarkObjects: 1.665400 ms  DeleteObjects: 0.015000 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 371.223264 seconds.
-  path: Assets/Prefab/StartText.prefab
-  artifactKey: Guid(67e6120659e4f444793974ff0c2d27ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/StartText.prefab using Guid(67e6120659e4f444793974ff0c2d27ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8631fe99a1d7eee9dcdd86bb25050624') in 0.101968 seconds
-  Import took 0.105400 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 15.120184 seconds.
-  path: Assets/Prefab/StartTextBeach.prefab
-  artifactKey: Guid(67e6120659e4f444793974ff0c2d27ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/StartTextBeach.prefab using Guid(67e6120659e4f444793974ff0c2d27ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2d6f2f1b8f42f64052d233f0bbbad2d') in 0.079725 seconds
-  Import took 0.084122 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 15.300350 seconds.
-  path: Assets/Prefab/WinTextBeach.prefab
-  artifactKey: Guid(bec546561ec21c948bc0a969a2d986a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/WinTextBeach.prefab using Guid(bec546561ec21c948bc0a969a2d986a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd51a722e61f4a6cb2c45b0e4e7584182') in 0.027106 seconds
-  Import took 0.031850 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002532 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.71 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.035 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.39 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1228 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 78.0 MB.
-System memory in use after: 78.1 MB.
-
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1824.
-Total: 3.082900 ms (FindLiveObjects: 0.279200 ms CreateObjectMapping: 0.084700 ms MarkObjects: 2.689100 ms  DeleteObjects: 0.028100 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002134 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.39 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.919 seconds
-Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.45 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.240 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.46 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1228 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 78.0 MB.
-System memory in use after: 78.1 MB.
+System memory in use before: 89.0 MB.
+System memory in use after: 89.1 MB.
 
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1827.
-Total: 1.910800 ms (FindLiveObjects: 0.275300 ms CreateObjectMapping: 0.092000 ms MarkObjects: 1.503800 ms  DeleteObjects: 0.037000 ms)
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1808.
+Total: 2.307800 ms (FindLiveObjects: 0.349100 ms CreateObjectMapping: 0.081500 ms MarkObjects: 1.858500 ms  DeleteObjects: 0.017100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 287.441422 seconds.
+  path: Assets/NetBounce.physicMaterial
+  artifactKey: Guid(6a45396d00880e741ac25b6cfa0a4961) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NetBounce.physicMaterial using Guid(6a45396d00880e741ac25b6cfa0a4961) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88576a74038771cb0cd81742b492918c') in 0.038954 seconds
+  Import took 0.042042 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000567 seconds.
+  path: Assets/Trophies_and_coins_set04_single_04.wav
+  artifactKey: Guid(588da603403fe9b4a87f93e4b0ac37ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Trophies_and_coins_set04_single_04.wav using Guid(588da603403fe9b4a87f93e4b0ac37ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a249f8a72367ac1a3248c79c73b2aa7') in 0.093920 seconds
+  Import took 0.096957 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000364 seconds.
+  path: Assets/NetBounce.physicMaterial
+  artifactKey: Guid(6a45396d00880e741ac25b6cfa0a4961) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NetBounce.physicMaterial using Guid(6a45396d00880e741ac25b6cfa0a4961) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88576a74038771cb0cd81742b492918c') in 0.003989 seconds
+  Import took 0.008101 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000450 seconds.
+  path: Assets/Trophies_and_coins_set04_single_04.wav
+  artifactKey: Guid(588da603403fe9b4a87f93e4b0ac37ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Trophies_and_coins_set04_single_04.wav using Guid(588da603403fe9b4a87f93e4b0ac37ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a249f8a72367ac1a3248c79c73b2aa7') in 0.016195 seconds
+  Import took 0.019266 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.002243 seconds.
+Registered in 0.003271 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.60 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.46 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.970 seconds
+- Completed reload, in  1.175 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.48 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1228 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 89.1 MB.
+System memory in use after: 89.2 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1814.
+Total: 1.931400 ms (FindLiveObjects: 0.291100 ms CreateObjectMapping: 0.059000 ms MarkObjects: 1.559000 ms  DeleteObjects: 0.020300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002763 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.42 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.247 seconds
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.42 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1228 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 78.0 MB.
-System memory in use after: 78.1 MB.
+System memory in use before: 89.1 MB.
+System memory in use after: 89.2 MB.
 
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1830.
-Total: 3.638300 ms (FindLiveObjects: 0.385800 ms CreateObjectMapping: 0.124700 ms MarkObjects: 3.102300 ms  DeleteObjects: 0.023600 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 270.871847 seconds.
-  path: Assets/Prefab/WinTextBeach.prefab
-  artifactKey: Guid(bec546561ec21c948bc0a969a2d986a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/WinTextBeach.prefab using Guid(bec546561ec21c948bc0a969a2d986a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21de25c855661f4f804bab0e76b90337') in 0.077727 seconds
-  Import took 0.080646 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002047 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.38 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.939 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.39 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1228 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 78.0 MB.
-System memory in use after: 78.1 MB.
-
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1834.
-Total: 1.788400 ms (FindLiveObjects: 0.159100 ms CreateObjectMapping: 0.043400 ms MarkObjects: 1.570700 ms  DeleteObjects: 0.014100 ms)
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1817.
+Total: 3.375800 ms (FindLiveObjects: 0.240000 ms CreateObjectMapping: 0.079500 ms MarkObjects: 2.989800 ms  DeleteObjects: 0.064400 ms)
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
